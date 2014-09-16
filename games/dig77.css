@@ -1,0 +1,102 @@
+header {
+	margin: 20px;
+}
+h1 {
+	font-size: 30px;
+}
+img.imgLife {
+	width: 80px;
+	height: 70px;
+}
+img.imgGold {
+	width: 80px;
+	height: 49px;
+}
+img.imgBomb {
+	width: 57px;
+	height: 80px;
+}
+img.imgBlast {
+	width: 69px;
+	height: 80px;
+}
+#userPanel {
+	float: left;
+}
+#userItem {
+	margin: 0px 20px;
+}
+#itemBomb {
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	visibility: hidden;
+}
+#userdata {
+	margin: 30px 10px;
+}
+#userdata th {
+	width : 80px;
+	height: 30px;
+	border : 3px solid #4169E1;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #40E0D0;
+}
+#userdata td {
+	width : 80px;
+	height: 30px;
+	border : 3px solid #4169E1;
+	font-size: 20px;
+	vertical-align: middle;
+	text-align: right;
+	padding-right: 5px;
+	background-color: #E0FFFF;
+}
+#board {
+	float: left;
+}
+#board>tbody>tr>td {
+	border : 1px solid black;
+	background-color: #FFF68F;
+	width: 80px;
+	height: 80px;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+td.bombMode {
+	background-color: #FF6347 !important;
+}
+td.wait {
+	background-color: #E066FF !important;
+}
+#overlay {
+	display: none;
+	width: 100%;
+	height:100%;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	background: rgba(0,0,0,0.7);
+}
+#message {
+	font-size: 40px;
+	color: #eee;
+	padding-top: 400px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+#imgHidden {
+	display: none;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+footer {
+	margin: 10px;
+}

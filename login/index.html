@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>User</title>
+	<script src="http://cdn.mlkcca.com/v0.2.7/milkcocoa.js"></script>
+	<script src="../lib/jquery-2.1.1.min.js"></script>
+	<script src="../lib/jquery.cookie.js"></script>
+	<script src="../lib/users.js"></script>
+</head>
+<body>
+	<div class="signup">
+		<h1>初めての方はこちら</h1>
+		<div id="signup-form">
+			<div class="field">
+				<input type="text" class="text-input" id="signup-name" maxlength="40" autocomplete="off" placeholder="名前">
+			</div>
+			<div class="field">
+				<input type="text" class="text-input email-input" id="signup-email" maxlength="40" autocomplete="off" placeholder="メールアドレス">
+			</div>
+			<div class="field">
+				<input type="password" class="text-input" id="signup-password" maxlength="16" placeholder="パスワード">
+			</div>
+			<button type="button" class="signup-button" id="signup-button">
+				ユーザ登録する
+			</button>
+		</div>
+	</div>
+	<div class="signin">
+		<h1>アカウントをお持ちの場合は</h1>
+		<div id="signin-form">
+			<div class="field">
+				<input type="text" class="text-input email-input" id="signin-email" maxlength="40" autocomplete="on" placeholder="メールアドレス">
+			</div>
+			<div class="field">
+				<input type="password" class="text-input" id="signin-password" maxlength="16" placeholder="パスワード">
+			</div>
+			<div class="remember_area">
+				<label class="remember">
+					<input type="checkbox" value="1" id="signin-rememberMe" checked>
+					<span>保存する</span>
+				</label>
+			</div>
+			<button type="button" class="signin-button" id="signin-button">
+				ログイン
+			</button>
+		</div>
+	</div>
+</body>
+<script src="main.js"></script>
+</html>

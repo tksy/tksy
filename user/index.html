@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>User</title>
+	<script src="http://cdn.mlkcca.com/v0.2.7/milkcocoa.js"></script>
+	<script src="../lib/jquery-2.1.1.min.js"></script>
+	<script src="../lib/jquery.cookie.js"></script>
+	<script src="../lib/users.js"></script>
+	<script src="../lib/games.js"></script>
+</head>
+<body>
+	<div class="info">
+		<div id="signout-form">
+			<div class="label">
+				<label class="user-name">
+					ユーザ：<span id="user-name"></span>
+				</label>
+			</div>
+			<div class="label">
+				<label class="user-email">
+					メールアドレス：<span id="user-email"></span>
+				</label>
+			</div>
+			<table>
+				<tr>
+					<td rowspan="2">
+						<a href="../games/dig77.html">Dig77（仮）</a>
+					</td>
+					<td>プレイ回数</td>
+					<td><span id="dig77-playCount"></span>回</td>
+				</tr>
+				<tr>
+					<td>ハイスコア</td>
+					<td><span id="dig77-highScore"></span></span>Gold</td>
+				</tr>
+			</table>
+			<button type="button" class="signout-button" id="signout-button">
+				ログアウト
+			</button>
+		</div>
+	</div>
+</body>
+<script src="main.js"></script>
+</html>
